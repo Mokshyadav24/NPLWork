@@ -1,0 +1,130 @@
+/* custom_styles.css */
+body {
+    background-color: #FFFFFF; /* White background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-slider .rc-slider-mark-text {
+    font-size: 12px;
+    color: #000000; /* Black color for slider marks */
+}
+
+.date-picker-range {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-style {
+    margin: 20px;
+    width: 50%;
+}
+
+.click-data-style {
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+}
+
+.custom-container {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #F0F0F0; /* Light gray background */
+    margin: 20px 0;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-container:hover {
+    background-color: #E0E0E0; /* Slightly darker gray on hover */
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.custom-header {
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+    color: #000000; /* Black text color */
+    font-size: 24px; /* Larger font size for header */
+    font-weight: bold;
+}
+
+.custom-header img {
+    transition: transform 0.3s;
+}
+
+.custom-header img:hover {
+    transform: scale(1.1); /* Slight scaling effect on hover */
+}
+
+.custom-graph {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #F0F0F0; /* Light gray background */
+    margin-top: 20px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.custom-graph:hover {
+    background-color: #E0E0E0; /* Slightly darker gray on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.custom-button {
+    border-radius: 5px;
+    padding: 12px 24px;
+    background-color: #CCCCCC; /* Light gray button */
+    color: #000000; /* Black text color */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.custom-button:hover {
+    background-color: #B0B0B0; /* Slightly darker gray on hover */
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.custom-button:active {
+    background-color: #999999; /* Even darker gray when clicked */
+    transform: scale(0.98);
+    box-shadow: none; /* Remove shadow when clicked */
+}
+
+.custom-dropdown .Select-control {
+    border-radius: 5px;
+    border: 1px solid #CCCCCC; /* Light gray border */
+    transition: border-color 0.3s;
+}
+
+.custom-dropdown .Select-control:hover {
+    border-color: #B0B0B0; /* Slightly darker gray border on hover */
+}
+
+.custom-dropdown .Select-menu-outer {
+    border-radius: 5px;
+    border: 1px solid #CCCCCC; /* Light gray border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for dropdown menu */
+}
+
+/* New logo styling */
+.custom-logo {
+    border: 2px solid #CCCCCC; /* Light gray border */
+    border-radius: 10px;
+    padding: 5px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.custom-logo:hover {
+    transform: scale(1.1); /* Slight scaling effect on hover */
+    border-color: #B0B0B0; /* Slightly darker gray border on hover */
+}
